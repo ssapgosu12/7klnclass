@@ -1,0 +1,105 @@
+@import "reset.css";
+body {
+  background-color: #f6f9fc;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none; color: black;
+}
+a:visited {
+    text-decoration: none; color: gray;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+p{
+    margin-bottom: 4px;
+}
+.maintitle{
+    font-size: 24px;
+    font-style: bold;
+    margin-bottom: 10px;
+}
+.smalldescription{
+    font-size: 14px;
+    color: gray;
+}
+.beatmap {
+    text-align: center;
+    padding: 6px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link {
+    text-align: center;
+    padding: 6px 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.link:visited {
+    text-decoration: none; color: black;
+}
+.subbeatmap{
+    text-align: center;
+    padding: 6px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+.lnclasstitle {
+    padding-bottom: 20px;
+    font-size: 18px;
+    padding-top: 3px;
+}
+
+.lnclass {
+  width: 75%;
+  max-width: 800px;
+  minimum-width: 300px !important;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 18px 24px;
+  padding-bottom: 12px;
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
+
+.fileinput {
+    size: 20, 40;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left:30px;
+}
+
+#linkbox {
+    padding-top: 10px
+}
+#linkbox2 {
+    display: flex;
+    item-align: center;
+    flex-direction: row;
+}
